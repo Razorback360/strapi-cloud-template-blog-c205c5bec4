@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_impacts",
+  "info": {
+    "displayName": "Impact"
+  },
+  "options": {},
+  "attributes": {
+    "impactIcon": {
+      "type": "customField",
+      "customField": "plugin::strapi-plugin-iconhub.iconhub",
+      "required": true
+    },
+    "impactStat": {
+      "type": "string",
+      "required": true
+    },
+    "impactDesc": {
+      "type": "richtext",
+      "required": true
+    }
+  },
+  "config": {}
+}
